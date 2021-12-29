@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadingStations, loadingStationStatus } from '../../accions/bikeAccions';
+import { loadingStations, loadingStationStatus } from '../../actions/bikeActions';
 import { columns } from '../components/tableConfig';
 
 export const Home = () => {
